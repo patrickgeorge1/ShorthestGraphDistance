@@ -26,9 +26,5 @@ def utils(dictionary, start):
         result += str(keys) + " " + str(dictionary[keys]) + newline
     return result
 
-print("With Dijkstra :")
+
 print(utils(g.Graph(graph).Dijkstra(startNode), startNode))
-print("With Dijkstra optimised / Dial :")
-print(utils(g.Graph(graph).DijkstraOptimised(startNode), startNode))
-print("With BellmanFord :")
-print(utils(g.Graph(graph).BellmanFord(startNode), startNode))

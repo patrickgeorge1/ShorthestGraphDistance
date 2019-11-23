@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f834111-892d-46c7-820b-5ef4b595a0d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Etapa2/Graph/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Etapa2/Graph/Graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etapa2/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Etapa2/Dijkstra.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,28 +26,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="generatedInput0" value="1" />
-          <entry key="py" value="37" />
+          <entry key="py" value="43" />
           <entry key="rtf" value="1" />
           <entry key="sadasd" value="1" />
-          <entry key="txt" value="316" />
+          <entry key="txt" value="324" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="319" />
-          <entry key="Python" value="37" />
+          <entry key="PLAIN_TEXT" value="327" />
+          <entry key="Python" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="63" />
+          <entry key="dummy" value="71" />
           <entry key="py" value="9145" />
           <entry key="txt" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="128" />
+          <entry key="PLAIN_TEXT" value="136" />
           <entry key="Python" value="9145" />
         </counts>
       </usages-collector>
@@ -59,36 +59,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Etapa2/Graph/Graph.py">
+        <entry file="file://$PROJECT_DIR$/Etapa2/Dijkstra.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="110" column="52" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
-              <folding>
-                <marker date="1574520069679" expanded="true" signature="45:78" ph="..." />
-                <marker date="1574520069679" expanded="true" signature="3001:4427" ph="..." />
-                <marker date="1574520069679" expanded="true" signature="3697:4402" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Etapa2/custom.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Etapa2/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="175">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Etapa2/DijkstraOptimised.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Etapa2/BellmanFord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -121,6 +116,9 @@
         <option value="$PROJECT_DIR$/Etapa2/run.py" />
         <option value="$PROJECT_DIR$/Etapa2/custom.txt" />
         <option value="$PROJECT_DIR$/Etapa2/Graph/Graph.py" />
+        <option value="$PROJECT_DIR$/Etapa2/BellmanFord.py" />
+        <option value="$PROJECT_DIR$/Etapa2/DijkstraOptimised.py" />
+        <option value="$PROJECT_DIR$/Etapa2/Dijkstra.py" />
       </list>
     </option>
   </component>
@@ -160,6 +158,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\patri\Desktop\TemaAA\Etapa2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\patri\Desktop\TemaAA\Etapa2" />
     </key>
@@ -176,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="Graph (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TemaAA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,7 +211,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\patri\Desktop\TemaAA\Etapa2\run.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\patri\Desktop\TemaAA\Etapa2\Dijkstra.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,7 +274,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Etapa2/run.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\patri\Desktop\TemaAA\Etapa2\Dijkstra.py" />
       <option name="PARAMETERS" value="./in/generatedInput0.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,11 +292,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.inputGenerator" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.Graph (1)" />
         <item itemvalue="Python.dijkstra" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.inputGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -316,18 +317,18 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.18175809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.18175809" />
       <window_info id="Structure" order="1" sideWeight="0.50141245" side_tool="true" weight="0.31328487" />
       <window_info id="Favorites" order="2" sideWeight="0.50141245" side_tool="true" weight="0.31328487" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3033557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4080537" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22281879" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.58255035" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -438,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/inputGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="13" selection-start-line="21" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -463,12 +457,6 @@
     <entry file="file://$PROJECT_DIR$/Etapa2/out/DijkstraOptimisedTest3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/out/DijkstraOptimisedTest0.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest0.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput0.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -483,30 +471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="56" column="64" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,6 +493,76 @@
             <marker date="1574520069679" expanded="true" signature="45:78" ph="..." />
             <marker date="1574520069679" expanded="true" signature="3001:4427" ph="..." />
             <marker date="1574520069679" expanded="true" signature="3697:4402" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/DijkstraOptimisedTest0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/DijkstraOptimisedTest6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/inputGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="21" column="13" selection-start-line="21" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="56" column="64" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/DijkstraOptimisedTest10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/DijkstraTest10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/BellmanFord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/DijkstraOptimised.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/Dijkstra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
