@@ -1,0 +1,73 @@
+============= Rulare test separat ======================
+
+
+python3 Dijkstra.py path_to_file_in
+python3 DijkstraOptimisez.py path_to_file_in
+python3 BellmanFord.py path_to_file_in
+
+
+============ Generare teste   ==========================
+
+make generate 
+
+// geneareaza director "in" cu teste omogene, 
+// exponential mai dificile, cu solutie prefabricata
+// conform Etapa1
+
+
+============ Rulare teste fiesier "in" =================
+
+make solve
+
+// rezolva fiecare fisier din "/in"
+// cu fiecare dintre cei 3 algoritmi
+// scrie solutiile in fisier "/out"
+
+
+============ Generare teste + rulare ===================
+
+make all
+
+// face make generate  si make solve
+
+
+
+
+
+
+
+*********************************************************************
+
+	Pentru a genera testele, am modelat o funtie de 
+	generare a numarului de noduri per test, muschii 
+	per noduri si o sursa random dintre noduri .
+
+	Dupa am aplicat strategia descrisa in Etapa 1 de a 
+	prefabrica intai cele (nr de noduri) - 1 solutii,
+	si apoi de a completa cu muchii de lungimi mai mari
+	decat ale solutiilor, pentru a asigura corectitudinea
+	raspunsurilor.
+
+	Scriptul de generare ("inputGenerator.py") este facut in 
+	python si poate fi rulat conform regulilor de mai sus 
+	din Makefile pentru a creea un nou set de date de intrare "/in"
+
+	In "Graph/Graph.py" am cele 3 implementari ale algoritmilor
+	de cautare in graf
+
+	"main.py" rezolva testele de intrare "/in" cu toti cei 3 algoritmi
+
+	Dijkstra.py, BellmanFord.py si DijkstraOptimised.py afiseaza 
+	pentru in fisier de intrare dat ca parametru in linia de comanda
+	rezultatele conform algoritmului respectiv
+
+	"/in" datele de intrare,
+	pe prima linie: nr de noduri, de muchii si nodul de start
+	pe celelalte linii: indexurile nodurilor intre care e muchie si 
+						distanta dintre ele, separate prin spatiu
+
+	"/out" raspunsurile calculate de algoritmii mei
+	pe fiecare linie e muchia si distanta de la sursa la ea
+
+
+*********************************************************************
