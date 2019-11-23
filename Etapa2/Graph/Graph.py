@@ -85,42 +85,43 @@ class Graph:
                 buckets.append(set())
             return buckets
 
-        # Index and values from first empty bucket and values from it
+        # Index and vertice form first non empty bucket
         def firstValidBucket(buckets):
             firstEmptyBucketIndex = None
-            firstEmptyBucket = []
+            firstVertice = None
             for index, bucket in enumerate(buckets):
                 if len(bucket) != 0:
                     firstEmptyBucketIndex = index
-                    [firstEmptyBucket.append(vertex) for vertex in bucket]
+                    firstVertice = next(iter(bucket))
                     break
-            return (firstEmptyBucketIndex, firstEmptyBucket)
+            return firstEmptyBucketIndex, firstVertice
 
-        def updateBuckets(vertice, distances):
-            buckets = emptyBuckets()
+        def updateBuckets(vertice, distances, buckets):
+            buckets[distances[vertice]].remove(vertice)
+            prevDistance = distances[vertice]
             for child in self.graph[vertice]:
-                if distances[child] == float("inf"):
-                    prevDistance = distances[vertice]
-                    nextDistance = self.graph[vertice][child]
-                    totalDistance = prevDistance + nextDistance
+                nextDistance = self.graph[vertice][child]
+                totalDistance = prevDistance + nextDistance # dist pt fiecare copil
+
+                if totalDistance < distances[child]:
+                    if distances[child] != float("inf"):
+                        lastPosition = distances[child]
+                        buckets[lastPosition].remove(child)
                     buckets[totalDistance].add(child)
+                    distances[child] = totalDistance
             return buckets
 
-        def utils(index, buckets, distances):
+        def utils(index, vertex, buckets, distances):
             if index is None: return
-            vertices = buckets[index]
-            for vertex in vertices:
-                distances[vertex] = index
-            for vertex in vertices:
-                buckets = updateBuckets(vertex, distances)
-                index, newVertices = firstValidBucket(buckets)
-                utils(index, buckets, distances)
+            distances[vertex] = index
+            updateBuckets(vertex, distances, buckets)
+            firstEmptyBucketIndex, firstVertice = firstValidBucket(buckets)
+            utils(firstEmptyBucketIndex, firstVertice, buckets, distances)
 
         buckets = emptyBuckets()
         distances = {k:float("inf") for k in self.graph}
         distances[start] = 0
         buckets[0].add(start)
-        index, newVertices = firstValidBucket(buckets)
-        utils(index, buckets, distances)
-
+        index, vertex = firstValidBucket(buckets)
+        utils(index, vertex, buckets, distances)
         return distances

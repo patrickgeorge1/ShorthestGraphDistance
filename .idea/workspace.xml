@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f834111-892d-46c7-820b-5ef4b595a0d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Etapa2/inputGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Etapa2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Etapa2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etapa2/Graph/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Etapa2/Graph/Graph.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,35 +18,37 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="generatedInput0" value="1" />
-          <entry key="py" value="34" />
+          <entry key="py" value="37" />
           <entry key="rtf" value="1" />
           <entry key="sadasd" value="1" />
-          <entry key="txt" value="296" />
+          <entry key="txt" value="316" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="299" />
-          <entry key="Python" value="34" />
+          <entry key="PLAIN_TEXT" value="319" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="46" />
-          <entry key="py" value="8435" />
+          <entry key="dummy" value="63" />
+          <entry key="py" value="9145" />
+          <entry key="txt" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="8435" />
+          <entry key="PLAIN_TEXT" value="128" />
+          <entry key="Python" value="9145" />
         </counts>
       </usages-collector>
     </session>
@@ -56,66 +57,38 @@
     <favorites_list name="TemaAA" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Etapa2/Graph/Graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="71" column="25" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="25" />
+            <state relative-caret-position="300">
+              <caret line="110" column="52" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
               <folding>
-                <marker date="1574377472278" expanded="true" signature="45:78" ph="..." />
-                <marker date="1574377472278" expanded="true" signature="3015:4279" ph="..." />
-                <marker date="1574377472278" expanded="true" signature="3440:4254" ph="..." />
+                <marker date="1574520069679" expanded="true" signature="45:78" ph="..." />
+                <marker date="1574520069679" expanded="true" signature="3001:4427" ph="..." />
+                <marker date="1574520069679" expanded="true" signature="3697:4402" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Etapa2/inputGenerator.py">
+        <entry file="file://$PROJECT_DIR$/Etapa2/custom.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="21" column="13" selection-start-line="21" selection-end-line="22" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Etapa2/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1574395217388" expanded="true" signature="1077:1209" ph="..." />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest0.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest1.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest2.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput0.txt">
+        <entry file="file://$PROJECT_DIR$/Etapa2/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="1">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,6 +100,7 @@
       <find>add</find>
       <find>Dijkstra</find>
       <find>file_con</find>
+      <find>14</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,17 +115,20 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Graph/Graph.py" />
         <option value="$PROJECT_DIR$/Etapa2/Graph/Constant.py" />
-        <option value="$PROJECT_DIR$/Etapa2/Graph/Graph.py" />
         <option value="$PROJECT_DIR$/Etapa2/inputGenerator.py" />
         <option value="$PROJECT_DIR$/Etapa2/main.py" />
+        <option value="$PROJECT_DIR$/Etapa2/dijkstra.py" />
+        <option value="$PROJECT_DIR$/Etapa2/run.py" />
+        <option value="$PROJECT_DIR$/Etapa2/custom.txt" />
+        <option value="$PROJECT_DIR$/Etapa2/Graph/Graph.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="233" />
-    <option name="y" value="-16" />
+    <option name="x" value="232" />
+    <option name="y" value="-17" />
     <option name="width" value="1350" />
-    <option name="height" value="882" />
+    <option name="height" value="883" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -159,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,28 +148,11 @@
               <item name="TemaAA" type="462c0819:PsiDirectoryNode" />
               <item name="Etapa2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TemaAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TemaAA" type="462c0819:PsiDirectoryNode" />
-              <item name="Etapa2" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TemaAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TemaAA" type="462c0819:PsiDirectoryNode" />
-              <item name="Etapa2" type="462c0819:PsiDirectoryNode" />
-              <item name="in" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TemaAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TemaAA" type="462c0819:PsiDirectoryNode" />
-              <item name="Etapa2" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,28 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="Constant" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TemaAA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph/Constant.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.run">
     <configuration name="Graph (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TemaAA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TemaAA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,11 +206,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Etapa2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph/Graph.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\patri\Desktop\TemaAA\Etapa2\run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,20 +261,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TemaAA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Etapa2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Etapa2/run.py" />
+      <option name="PARAMETERS" value="./in/generatedInput0.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Graph" />
-      <item itemvalue="Python.Constant" />
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.Graph (1)" />
       <item itemvalue="Python.inputGenerator" />
+      <item itemvalue="Python.dijkstra" />
+      <item itemvalue="Python.run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.Graph (1)" />
+        <item itemvalue="Python.dijkstra" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.inputGenerator" />
-        <item itemvalue="Python.Graph (1)" />
-        <item itemvalue="Python.Graph" />
-        <item itemvalue="Python.Constant" />
       </list>
     </recent_temporary>
   </component>
@@ -354,21 +313,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.18175809" />
       <window_info id="Structure" order="1" sideWeight="0.50141245" side_tool="true" weight="0.31328487" />
       <window_info id="Favorites" order="2" sideWeight="0.50141245" side_tool="true" weight="0.31328487" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2962578" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3033557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22416107" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22281879" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -430,12 +389,8 @@
         <state relative-caret-position="-386" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/in/sadasd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput0">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/in/sadasd" />
+    <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput0" />
     <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput8.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -462,13 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="1" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -490,34 +438,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput1.txt">
+    <entry file="file://$PROJECT_DIR$/Etapa2/inputGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="21" column="13" selection-start-line="21" selection-end-line="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/Graph/Graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="25" />
-          <folding>
-            <marker date="1574377472278" expanded="true" signature="45:78" ph="..." />
-            <marker date="1574377472278" expanded="true" signature="3015:4279" ph="..." />
-            <marker date="1574377472278" expanded="true" signature="3440:4254" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest0.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest1.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -525,23 +451,80 @@
     <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/inputGenerator.py">
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/DijkstraTest0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/DijkstraTest3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/DijkstraOptimisedTest3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/DijkstraOptimisedTest0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/out/BellmanFordTest0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput0.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="13" selection-start-line="21" selection-end-line="22" />
+        <state relative-caret-position="175">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="56" column="64" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="64" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Etapa2/main.py">
+    <entry file="file://$PROJECT_DIR$/Etapa2/in/generatedInput1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="400">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1574395217388" expanded="true" signature="1077:1209" ph="..." />
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/custom.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Etapa2/Graph/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="110" column="52" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
+          <folding>
+            <marker date="1574520069679" expanded="true" signature="45:78" ph="..." />
+            <marker date="1574520069679" expanded="true" signature="3001:4427" ph="..." />
+            <marker date="1574520069679" expanded="true" signature="3697:4402" ph="..." />
           </folding>
         </state>
       </provider>
